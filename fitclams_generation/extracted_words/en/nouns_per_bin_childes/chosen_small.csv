@@ -1,0 +1,11 @@
+word_sing,word_plur,gender,frequency,bin,df
+roommate,roommates,None,2,0,childes
+resident,residents,None,6,1,childes
+librarian,librarians,None,13,2,childes
+officer,officers,None,36,3,childes
+toddler,toddlers,None,90,4,childes
+farmer,farmers,None,264,5,childes
+policeman,policemen,None,380,6,childes
+doctor,doctors,None,656,7,childes
+man,men,None,2156,8,childes
+daddy,daddies,None,7028,9,childes  

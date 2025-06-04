@@ -1,0 +1,11 @@
+word_sing,word_plur,gender,frequency,bin,df
+fahrgast,fahrgäste,Masc,8,1,wiki
+kleinkind,kleinkinder,Neut,12,2,wiki
+zwilling,zwillinge,Masc,23,3,wiki
+polizist,polizisten,Masc,39,3,wiki
+kunde,kunden,Masc,105,5,wiki
+schwester,schwestern,Fem,171,5,wiki
+bruder,brüder,Masc,374,6,wiki
+vater,väter,Masc,736,7,wiki
+mann,männer,Masc,642,7,wiki
+person,personen,Fem,1114,8,wiki

@@ -1,0 +1,5 @@
+word_sing,word_plur,gender,frequency,bin,df
+femme,femmes,Fem,71,4,childes
+adulte,adultes,Masc,35,3,childes
+constructeur,constructeurs,Masc,106,5,wiki
+docteur,docteurs,Masc,85,5,wiki

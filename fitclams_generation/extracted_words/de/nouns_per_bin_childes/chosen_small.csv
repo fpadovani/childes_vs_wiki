@@ -1,0 +1,11 @@
+word_sing,word_plur,gender,frequency,bin,df
+feind,feinde,Masc,4,0,childes
+architekt,architekten,Masc,4,0,childes
+präsident,präsidenten,Masc,6,1,childes
+kollege,kollegen,Masc,17,2,childes
+ingenieur,ingenieure,Masc,26,3,childes
+sohn,söhne,Masc,96,4,childes
+arzt,ärzte,Masc,161,5,childes
+doktor,doktoren,Masc,295,6,childes
+mensch,menschen,Masc,1247,7,childes
+frau,frauen,Fem,1841,8,childes 

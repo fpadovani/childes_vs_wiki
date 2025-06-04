@@ -1,0 +1,10 @@
+word_sing,word_plur,gender,frequency,bin,df
+gamin,gamins,Masc,3,0,wiki
+cuisinier,cuisiniers,Masc,11,2,wiki
+vilaine,vilaines,Fem,18,3,wiki
+avocat,avocats,Masc,55,4,wiki
+pilote,pilotes,Masc,192,6,wiki
+lecteur,lecteurs,Masc,144,6,wiki
+prince,princes,Masc,480,7,wiki
+personnage,personnages,Masc,996,8,wiki
+groupe,groupes,Masc,1610,9,wiki

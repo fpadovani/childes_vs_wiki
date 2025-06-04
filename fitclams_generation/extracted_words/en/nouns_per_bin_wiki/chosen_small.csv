@@ -1,0 +1,11 @@
+word_sing,word_plur,gender,frequency,bin,df
+picker,pickers,None,2,0,wiki
+harvester,harvesters,None,3,0,wiki
+fireman,firemen,None,9,1,wiki
+superhero,superheroes,None,27,3,wiki
+explorer,explorers,None,72,4,wiki
+painter,painters,None,161,5,wiki
+parent,parents,None,358,6,wiki
+writer,writers,None,629,7,wiki
+president,presidents,None,1473,8,wiki
+group,groups,None,3085,9,wiki

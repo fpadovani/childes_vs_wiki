@@ -1,0 +1,5 @@
+word_sing,word_plur,dative_sing,dative_plur,gender,frequency,bin,df
+mitglied,mitglieder,dem mitglied,den mitgliedern,Neut,8,1,childes
+bauer,bauern,dem bauer,den bauern,Masc,332,6,childes
+matrose,matrosen,dem matrosen,den matrosen,Masc,11,2,wiki
+familie,familien,der familie,den familien,Fem,959,8,wiki

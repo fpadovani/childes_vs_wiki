@@ -1,0 +1,10 @@
+word_sing,word_plur,gender,frequency,bin,df
+visiteur,visiteurs,Masc,3,0,childes
+joueur,joueurs,Masc,8,1,childes
+chanteur,chanteurs,Masc,13,2,childes
+capitaine,capitaines,Masc,32,3,childes
+homme,hommes,Masc,84,5,childes
+pompier,pompiers,Masc,171,6,childes
+dame,dames,Masc,311,6,childes
+enfant,enfants,Masc,667,7,childes                                                  
+lapin,lapins,Masc,972,8,childes

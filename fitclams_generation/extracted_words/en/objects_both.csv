@@ -1,0 +1,5 @@
+word_sing,word_plur,gender,frequency,bin,df
+waiter,waiters,None,10,1,wiki
+speaker,speakers,None,347,6,wiki
+guard,guards,None,35,3,childes
+friend,friends,None,1414,7,childes
