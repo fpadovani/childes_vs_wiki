@@ -1,0 +1,280 @@
+die Schriftsteller sind alt
+die Schriftsteller ist alt
+die Schriftsteller sind jung
+die Schriftsteller ist jung
+die Schriftsteller sind klein
+die Schriftsteller ist klein
+die Schriftsteller sind groß
+die Schriftsteller ist groß
+die Schriftsteller schwimmen
+die Schriftsteller schwimmt
+die Schriftsteller sprechen
+die Schriftsteller spricht
+die Schriftsteller lachen
+die Schriftsteller lacht
+die Direktoren sind alt
+die Direktoren ist alt
+die Direktoren sind jung
+die Direktoren ist jung
+die Direktoren sind klein
+die Direktoren ist klein
+die Direktoren sind groß
+die Direktoren ist groß
+die Direktoren schwimmen
+die Direktoren schwimmt
+die Direktoren sprechen
+die Direktoren spricht
+die Direktoren lachen
+die Direktoren lacht
+die Bauern sind alt
+die Bauern ist alt
+die Bauern sind jung
+die Bauern ist jung
+die Bauern sind klein
+die Bauern ist klein
+die Bauern sind groß
+die Bauern ist groß
+die Bauern schwimmen
+die Bauern schwimmt
+die Bauern sprechen
+die Bauern spricht
+die Bauern lachen
+die Bauern lacht
+die Chirurgen sind alt
+die Chirurgen ist alt
+die Chirurgen sind jung
+die Chirurgen ist jung
+die Chirurgen sind klein
+die Chirurgen ist klein
+die Chirurgen sind groß
+die Chirurgen ist groß
+die Chirurgen schwimmen
+die Chirurgen schwimmt
+die Chirurgen sprechen
+die Chirurgen spricht
+die Chirurgen lachen
+die Chirurgen lacht
+die Senatoren sind alt
+die Senatoren ist alt
+die Senatoren sind jung
+die Senatoren ist jung
+die Senatoren sind klein
+die Senatoren ist klein
+die Senatoren sind groß
+die Senatoren ist groß
+die Senatoren schwimmen
+die Senatoren schwimmt
+die Senatoren sprechen
+die Senatoren spricht
+die Senatoren lachen
+die Senatoren lacht
+die Lehrer sind alt
+die Lehrer ist alt
+die Lehrer sind jung
+die Lehrer ist jung
+die Lehrer sind klein
+die Lehrer ist klein
+die Lehrer sind groß
+die Lehrer ist groß
+die Lehrer schwimmen
+die Lehrer schwimmt
+die Lehrer sprechen
+die Lehrer spricht
+die Lehrer lachen
+die Lehrer lacht
+die Kunden sind alt
+die Kunden ist alt
+die Kunden sind jung
+die Kunden ist jung
+die Kunden sind klein
+die Kunden ist klein
+die Kunden sind groß
+die Kunden ist groß
+die Kunden schwimmen
+die Kunden schwimmt
+die Kunden sprechen
+die Kunden spricht
+die Kunden lachen
+die Kunden lacht
+die Polizisten sind alt
+die Polizisten ist alt
+die Polizisten sind jung
+die Polizisten ist jung
+die Polizisten sind klein
+die Polizisten ist klein
+die Polizisten sind groß
+die Polizisten ist groß
+die Polizisten schwimmen
+die Polizisten schwimmt
+die Polizisten sprechen
+die Polizisten spricht
+die Polizisten lachen
+die Polizisten lacht
+die Piloten sind alt
+die Piloten ist alt
+die Piloten sind jung
+die Piloten ist jung
+die Piloten sind klein
+die Piloten ist klein
+die Piloten sind groß
+die Piloten ist groß
+die Piloten schwimmen
+die Piloten schwimmt
+die Piloten sprechen
+die Piloten spricht
+die Piloten lachen
+die Piloten lacht
+die Berater sind alt
+die Berater ist alt
+die Berater sind jung
+die Berater ist jung
+die Berater sind klein
+die Berater ist klein
+die Berater sind groß
+die Berater ist groß
+die Berater schwimmen
+die Berater schwimmt
+die Berater sprechen
+die Berater spricht
+die Berater lachen
+die Berater lacht
+der Schriftsteller ist alt
+der Schriftsteller sind alt
+der Schriftsteller ist jung
+der Schriftsteller sind jung
+der Schriftsteller ist klein
+der Schriftsteller sind klein
+der Schriftsteller ist groß
+der Schriftsteller sind groß
+der Schriftsteller schwimmt
+der Schriftsteller schwimmen
+der Schriftsteller spricht
+der Schriftsteller sprechen
+der Schriftsteller lacht
+der Schriftsteller lachen
+der Direktor ist alt
+der Direktor sind alt
+der Direktor ist jung
+der Direktor sind jung
+der Direktor ist klein
+der Direktor sind klein
+der Direktor ist groß
+der Direktor sind groß
+der Direktor schwimmt
+der Direktor schwimmen
+der Direktor spricht
+der Direktor sprechen
+der Direktor lacht
+der Direktor lachen
+der Bauer ist alt
+der Bauer sind alt
+der Bauer ist jung
+der Bauer sind jung
+der Bauer ist klein
+der Bauer sind klein
+der Bauer ist groß
+der Bauer sind groß
+der Bauer schwimmt
+der Bauer schwimmen
+der Bauer spricht
+der Bauer sprechen
+der Bauer lacht
+der Bauer lachen
+der Chirurg ist alt
+der Chirurg sind alt
+der Chirurg ist jung
+der Chirurg sind jung
+der Chirurg ist klein
+der Chirurg sind klein
+der Chirurg ist groß
+der Chirurg sind groß
+der Chirurg schwimmt
+der Chirurg schwimmen
+der Chirurg spricht
+der Chirurg sprechen
+der Chirurg lacht
+der Chirurg lachen
+der Senator ist alt
+der Senator sind alt
+der Senator ist jung
+der Senator sind jung
+der Senator ist klein
+der Senator sind klein
+der Senator ist groß
+der Senator sind groß
+der Senator schwimmt
+der Senator schwimmen
+der Senator spricht
+der Senator sprechen
+der Senator lacht
+der Senator lachen
+der Lehrer ist alt
+der Lehrer sind alt
+der Lehrer ist jung
+der Lehrer sind jung
+der Lehrer ist klein
+der Lehrer sind klein
+der Lehrer ist groß
+der Lehrer sind groß
+der Lehrer schwimmt
+der Lehrer schwimmen
+der Lehrer spricht
+der Lehrer sprechen
+der Lehrer lacht
+der Lehrer lachen
+der Kunde ist alt
+der Kunde sind alt
+der Kunde ist jung
+der Kunde sind jung
+der Kunde ist klein
+der Kunde sind klein
+der Kunde ist groß
+der Kunde sind groß
+der Kunde schwimmt
+der Kunde schwimmen
+der Kunde spricht
+der Kunde sprechen
+der Kunde lacht
+der Kunde lachen
+der Polizist ist alt
+der Polizist sind alt
+der Polizist ist jung
+der Polizist sind jung
+der Polizist ist klein
+der Polizist sind klein
+der Polizist ist groß
+der Polizist sind groß
+der Polizist schwimmt
+der Polizist schwimmen
+der Polizist spricht
+der Polizist sprechen
+der Polizist lacht
+der Polizist lachen
+der Pilot ist alt
+der Pilot sind alt
+der Pilot ist jung
+der Pilot sind jung
+der Pilot ist klein
+der Pilot sind klein
+der Pilot ist groß
+der Pilot sind groß
+der Pilot schwimmt
+der Pilot schwimmen
+der Pilot spricht
+der Pilot sprechen
+der Pilot lacht
+der Pilot lachen
+der Berater ist alt
+der Berater sind alt
+der Berater ist jung
+der Berater sind jung
+der Berater ist klein
+der Berater sind klein
+der Berater ist groß
+der Berater sind groß
+der Berater schwimmt
+der Berater schwimmen
+der Berater spricht
+der Berater sprechen
+der Berater lacht
+der Berater lachen

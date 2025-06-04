@@ -1,0 +1,196 @@
+die schriftsteller sind alt
+die schriftsteller ist alt
+die schriftsteller sind jung
+die schriftsteller ist jung
+die schriftsteller sind klein
+die schriftsteller ist klein
+die schriftsteller sind groß
+die schriftsteller ist groß
+die schriftsteller schwimmen
+die schriftsteller schwimmt
+die schriftsteller sprechen
+die schriftsteller spricht
+die schriftsteller lachen
+die schriftsteller lacht
+die direktoren sind alt
+die direktoren ist alt
+die direktoren sind jung
+die direktoren ist jung
+die direktoren sind klein
+die direktoren ist klein
+die direktoren sind groß
+die direktoren ist groß
+die direktoren schwimmen
+die direktoren schwimmt
+die direktoren sprechen
+die direktoren spricht
+die direktoren lachen
+die direktoren lacht
+die bauern sind alt
+die bauern ist alt
+die bauern sind jung
+die bauern ist jung
+die bauern sind klein
+die bauern ist klein
+die bauern sind groß
+die bauern ist groß
+die bauern schwimmen
+die bauern schwimmt
+die bauern sprechen
+die bauern spricht
+die bauern lachen
+die bauern lacht
+die lehrer sind alt
+die lehrer ist alt
+die lehrer sind jung
+die lehrer ist jung
+die lehrer sind klein
+die lehrer ist klein
+die lehrer sind groß
+die lehrer ist groß
+die lehrer schwimmen
+die lehrer schwimmt
+die lehrer sprechen
+die lehrer spricht
+die lehrer lachen
+die lehrer lacht
+die kunden sind alt
+die kunden ist alt
+die kunden sind jung
+die kunden ist jung
+die kunden sind klein
+die kunden ist klein
+die kunden sind groß
+die kunden ist groß
+die kunden schwimmen
+die kunden schwimmt
+die kunden sprechen
+die kunden spricht
+die kunden lachen
+die kunden lacht
+die polizisten sind alt
+die polizisten ist alt
+die polizisten sind jung
+die polizisten ist jung
+die polizisten sind klein
+die polizisten ist klein
+die polizisten sind groß
+die polizisten ist groß
+die polizisten schwimmen
+die polizisten schwimmt
+die polizisten sprechen
+die polizisten spricht
+die polizisten lachen
+die polizisten lacht
+die piloten sind alt
+die piloten ist alt
+die piloten sind jung
+die piloten ist jung
+die piloten sind klein
+die piloten ist klein
+die piloten sind groß
+die piloten ist groß
+die piloten schwimmen
+die piloten schwimmt
+die piloten sprechen
+die piloten spricht
+die piloten lachen
+die piloten lacht
+der schriftsteller ist alt
+der schriftsteller sind alt
+der schriftsteller ist jung
+der schriftsteller sind jung
+der schriftsteller ist klein
+der schriftsteller sind klein
+der schriftsteller ist groß
+der schriftsteller sind groß
+der schriftsteller schwimmt
+der schriftsteller schwimmen
+der schriftsteller spricht
+der schriftsteller sprechen
+der schriftsteller lacht
+der schriftsteller lachen
+der direktor ist alt
+der direktor sind alt
+der direktor ist jung
+der direktor sind jung
+der direktor ist klein
+der direktor sind klein
+der direktor ist groß
+der direktor sind groß
+der direktor schwimmt
+der direktor schwimmen
+der direktor spricht
+der direktor sprechen
+der direktor lacht
+der direktor lachen
+der bauer ist alt
+der bauer sind alt
+der bauer ist jung
+der bauer sind jung
+der bauer ist klein
+der bauer sind klein
+der bauer ist groß
+der bauer sind groß
+der bauer schwimmt
+der bauer schwimmen
+der bauer spricht
+der bauer sprechen
+der bauer lacht
+der bauer lachen
+der lehrer ist alt
+der lehrer sind alt
+der lehrer ist jung
+der lehrer sind jung
+der lehrer ist klein
+der lehrer sind klein
+der lehrer ist groß
+der lehrer sind groß
+der lehrer schwimmt
+der lehrer schwimmen
+der lehrer spricht
+der lehrer sprechen
+der lehrer lacht
+der lehrer lachen
+der kunde ist alt
+der kunde sind alt
+der kunde ist jung
+der kunde sind jung
+der kunde ist klein
+der kunde sind klein
+der kunde ist groß
+der kunde sind groß
+der kunde schwimmt
+der kunde schwimmen
+der kunde spricht
+der kunde sprechen
+der kunde lacht
+der kunde lachen
+der polizist ist alt
+der polizist sind alt
+der polizist ist jung
+der polizist sind jung
+der polizist ist klein
+der polizist sind klein
+der polizist ist groß
+der polizist sind groß
+der polizist schwimmt
+der polizist schwimmen
+der polizist spricht
+der polizist sprechen
+der polizist lacht
+der polizist lachen
+der pilot ist alt
+der pilot sind alt
+der pilot ist jung
+der pilot sind jung
+der pilot ist klein
+der pilot sind klein
+der pilot ist groß
+der pilot sind groß
+der pilot schwimmt
+der pilot schwimmen
+der pilot spricht
+der pilot sprechen
+der pilot lacht
+der pilot lachen

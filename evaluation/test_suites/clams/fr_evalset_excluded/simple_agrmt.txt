@@ -1,0 +1,284 @@
+les _auteurs_ sont vieux
+les _auteurs_ est vieux
+les _auteurs_ sont jeunes
+les _auteurs_ est jeune
+les _auteurs_ sont petits
+les _auteurs_ est petit
+les _auteurs_ sont grands
+les _auteurs_ est grand
+les _auteurs_ _déménagent_
+les _auteurs_ _déménage_
+les _auteurs_ parlent
+les _auteurs_ parle
+les _auteurs_ retournent
+les _auteurs_ retourne
+les _directeurs_ sont vieux
+les _directeurs_ est vieux
+les _directeurs_ sont jeunes
+les _directeurs_ est jeune
+les _directeurs_ sont petits
+les _directeurs_ est petit
+les _directeurs_ sont grands
+les _directeurs_ est grand
+les _directeurs_ _déménagent_
+les _directeurs_ _déménage_
+les _directeurs_ parlent
+les _directeurs_ parle
+les _directeurs_ retournent
+les _directeurs_ retourne
+les _agriculteurs_ sont vieux
+les _agriculteurs_ est vieux
+les _agriculteurs_ sont jeunes
+les _agriculteurs_ est jeune
+les _agriculteurs_ sont petits
+les _agriculteurs_ est petit
+les _agriculteurs_ sont grands
+les _agriculteurs_ est grand
+les _agriculteurs_ _déménagent_
+les _agriculteurs_ _déménage_
+les _agriculteurs_ parlent
+les _agriculteurs_ parle
+les _agriculteurs_ retournent
+les _agriculteurs_ retourne
+les chirurgiens _déménagent_
+les chirurgiens _déménage_
+les _sénateurs_ sont vieux
+les _sénateurs_ est vieux
+les _sénateurs_ sont jeunes
+les _sénateurs_ est jeune
+les _sénateurs_ sont petits
+les _sénateurs_ est petit
+les _sénateurs_ sont grands
+les _sénateurs_ est grand
+les _sénateurs_ _déménagent_
+les _sénateurs_ _déménage_
+les _sénateurs_ parlent
+les _sénateurs_ parle
+les _sénateurs_ retournent
+les _sénateurs_ retourne
+les _professeurs_ sont vieux
+les _professeurs_ est vieux
+les _professeurs_ sont jeunes
+les _professeurs_ est jeune
+les _professeurs_ sont petits
+les _professeurs_ est petit
+les _professeurs_ sont grands
+les _professeurs_ est grand
+les _professeurs_ _déménagent_
+les _professeurs_ _déménage_
+les _professeurs_ parlent
+les _professeurs_ parle
+les _professeurs_ retournent
+les _professeurs_ retourne
+les clients _déménagent_
+les clients _déménage_
+les _officiers_ sont vieux
+les _officiers_ est vieux
+les _officiers_ sont jeunes
+les _officiers_ est jeune
+les _officiers_ sont petits
+les _officiers_ est petit
+les _officiers_ sont grands
+les _officiers_ est grand
+les _officiers_ _déménagent_
+les _officiers_ _déménage_
+les _officiers_ parlent
+les _officiers_ parle
+les _officiers_ retournent
+les _officiers_ retourne
+les pilotes _déménagent_
+les pilotes _déménage_
+les _consultants_ sont vieux
+les _consultants_ est vieux
+les _consultants_ sont jeunes
+les _consultants_ est jeune
+les _consultants_ sont petits
+les _consultants_ est petit
+les _consultants_ sont grands
+les _consultants_ est grand
+les _consultants_ _déménagent_
+les _consultants_ _déménage_
+les _consultants_ parlent
+les _consultants_ parle
+les _consultants_ retournent
+les _consultants_ retourne
+l' auteur _déménage_
+l' auteur _déménagent_
+le directeur _déménage_
+le directeur _déménagent_
+l' agriculteur _déménage_
+l' agriculteur _déménagent_
+le chirurgien _déménage_
+le chirurgien _déménagent_
+le _sénateur_ est vieux
+le _sénateur_ sont vieux
+le _sénateur_ est jeune
+le _sénateur_ sont jeunes
+le _sénateur_ est petit
+le _sénateur_ sont petits
+le _sénateur_ est grand
+le _sénateur_ sont grands
+le _sénateur_ _déménage_
+le _sénateur_ _déménagent_
+le _sénateur_ parle
+le _sénateur_ parlent
+le _sénateur_ retourne
+le _sénateur_ retournent
+le professeur _déménage_
+le professeur _déménagent_
+le client _déménage_
+le client _déménagent_
+l' officier _déménage_
+l' officier _déménagent_
+le pilote _déménage_
+le pilote _déménagent_
+le consultant _déménage_
+le consultant _déménagent_
+les gardes _déménagent_
+les gardes _déménage_
+les _ministres_ sont vieux
+les _ministres_ est vieux
+les _ministres_ sont jeunes
+les _ministres_ est jeune
+les _ministres_ sont petits
+les _ministres_ est petit
+les _ministres_ sont grands
+les _ministres_ est grand
+les _ministres_ _déménagent_
+les _ministres_ _déménage_
+les _ministres_ parlent
+les _ministres_ parle
+les _ministres_ retournent
+les _ministres_ retourne
+les cadres _déménagent_
+les cadres _déménage_
+les _adjoints_ sont vieux
+les _adjoints_ est vieux
+les _adjoints_ sont jeunes
+les _adjoints_ est jeune
+les _adjoints_ sont petits
+les _adjoints_ est petit
+les _adjoints_ sont grands
+les _adjoints_ est grand
+les _adjoints_ _déménagent_
+les _adjoints_ _déménage_
+les _adjoints_ parlent
+les _adjoints_ parle
+les _adjoints_ retournent
+les _adjoints_ retourne
+les _chauffeurs_ de taxi sont vieux
+les _chauffeurs_ de taxi est vieux
+les _chauffeurs_ de taxi sont jeunes
+les _chauffeurs_ de taxi est jeune
+les _chauffeurs_ de taxi sont petits
+les _chauffeurs_ de taxi est petit
+les _chauffeurs_ de taxi sont grands
+les _chauffeurs_ de taxi est grand
+les _chauffeurs_ de taxi _déménagent_
+les _chauffeurs_ de taxi _déménage_
+les _chauffeurs_ de taxi parlent
+les _chauffeurs_ de taxi parle
+les _chauffeurs_ de taxi retournent
+les _chauffeurs_ de taxi retourne
+les _danseurs_ sont vieux
+les _danseurs_ est vieux
+les _danseurs_ sont jeunes
+les _danseurs_ est jeune
+les _danseurs_ sont petits
+les _danseurs_ est petit
+les _danseurs_ sont grands
+les _danseurs_ est grand
+les _danseurs_ _déménagent_
+les _danseurs_ _déménage_
+les _danseurs_ parlent
+les _danseurs_ parle
+les _danseurs_ retournent
+les _danseurs_ retourne
+les _architectes_ sont vieux
+les _architectes_ est vieux
+les _architectes_ sont jeunes
+les _architectes_ est jeune
+les _architectes_ sont petits
+les _architectes_ est petit
+les _architectes_ sont grands
+les _architectes_ est grand
+les _architectes_ _déménagent_
+les _architectes_ _déménage_
+les _architectes_ parlent
+les _architectes_ parle
+les _architectes_ retournent
+les _architectes_ retourne
+les chefs _déménagent_
+les chefs _déménage_
+les patineurs _déménagent_
+les patineurs _déménage_
+les parents _déménagent_
+les parents _déménage_
+le garde _déménage_
+le garde _déménagent_
+le _ministre_ est vieux
+le _ministre_ sont vieux
+le _ministre_ est jeune
+le _ministre_ sont jeunes
+le _ministre_ est petit
+le _ministre_ sont petits
+le _ministre_ est grand
+le _ministre_ sont grands
+le _ministre_ _déménage_
+le _ministre_ _déménagent_
+le _ministre_ parle
+le _ministre_ parlent
+le _ministre_ retourne
+le _ministre_ retournent
+le cadre _déménage_
+le cadre _déménagent_
+l' _adjoint_ est vieux
+l' _adjoint_ sont vieux
+l' _adjoint_ est jeune
+l' _adjoint_ sont jeunes
+l' _adjoint_ est petit
+l' _adjoint_ sont petits
+l' _adjoint_ est grand
+l' _adjoint_ sont grands
+l' _adjoint_ _déménage_
+l' _adjoint_ _déménagent_
+l' _adjoint_ parle
+l' _adjoint_ parlent
+l' _adjoint_ retourne
+l' _adjoint_ retournent
+le chauffeur de taxi _déménage_
+le chauffeur de taxi _déménagent_
+le danseur _déménage_
+le danseur _déménagent_
+l' architecte _déménage_
+l' architecte _déménagent_
+le chef _déménage_
+le chef _déménagent_
+le _patineur_ est vieux
+le _patineur_ sont vieux
+le _patineur_ est jeune
+le _patineur_ sont jeunes
+le _patineur_ est petit
+le _patineur_ sont petits
+le _patineur_ est grand
+le _patineur_ sont grands
+le _patineur_ _déménage_
+le _patineur_ _déménagent_
+le _patineur_ parle
+le _patineur_ parlent
+le _patineur_ retourne
+le _patineur_ retournent
+le _parent_ est vieux
+le _parent_ sont vieux
+le _parent_ est jeune
+le _parent_ sont jeunes
+le _parent_ est petit
+le _parent_ sont petits
+le _parent_ est grand
+le _parent_ sont grands
+le _parent_ _déménage_
+le _parent_ _déménagent_
+le _parent_ parle
+le _parent_ parlent
+le _parent_ retourne
+le _parent_ retournent

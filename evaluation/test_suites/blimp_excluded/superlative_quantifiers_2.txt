@@ -1,0 +1,360 @@
+every person has _exited_ at most four libraries.
+no person has _exited_ at most four libraries.
+some car had _resembled_ at least seven pictures.
+no car had _resembled_ at least seven pictures.
+that rabbit should _irritate_ at most four actresses.
+no rabbit should _irritate_ at most four actresses.
+a painting might _astound_ at least five waiters.
+no painting might _astound_ at least five waiters.
+the _icicle_ is stunning at least five committees.
+no _icicle_ is stunning at least five committees.
+every movie theater is _alarming_ at most four guys.
+no movie theater is _alarming_ at most four guys.
+a teacher _boycotted_ at least five governments.
+no teacher _boycotted_ at least five governments.
+that adult _observed_ at least nine cashiers.
+no adult _observed_ at least nine cashiers.
+the teenager would _boast_ about at most four waiters.
+no teenager would _boast_ about at most four waiters.
+that driver was _researching_ at most four documentaries.
+no driver was _researching_ at most four documentaries.
+that cashier _boycotted_ at least six museums.
+no cashier _boycotted_ at least six museums.
+the customer _biked_ to at least ten closets.
+no customer _biked_ to at least ten closets.
+every pedestrian had _cured_ at most four pedestrians.
+no pedestrian had _cured_ at most four pedestrians.
+the guest _cared_ for at most four customers.
+no guest _cared_ for at most four customers.
+every story was _astounding_ at least six teenagers.
+no story was _astounding_ at least six teenagers.
+every hospital does _dislike_ at most four men.
+no hospital does _dislike_ at most four men.
+a dancer is _curing_ at most two cashiers.
+no dancer is _curing_ at most two cashiers.
+that actress _concealed_ at most three computers.
+no actress _concealed_ at most three computers.
+each waitress has _concealed_ at most three rivers.
+no waitress has _concealed_ at most three rivers.
+this hospital might _criticize_ at most five schools.
+no hospital might _criticize_ at most five schools.
+each government can _hire_ at most six adults.
+no government can _hire_ at most six adults.
+that hospital could _conceal_ at most three actors.
+no hospital could _conceal_ at most three actors.
+an actor is _boycotting_ at most four art galleries.
+no actor is _boycotting_ at most four art galleries.
+this slope _stunned_ at most four actors.
+no slope _stunned_ at most four actors.
+this student _cured_ at least seven cats.
+no student _cured_ at least seven cats.
+that man _criticized_ at least five children.
+no man _criticized_ at least five children.
+a boy _boycotted_ at most eight rivers.
+no boy _boycotted_ at most eight rivers.
+this doctor has _cared_ for at most nine students.
+no doctor has _cared_ for at most nine students.
+the doctor was _investigating_ at most three committees.
+no doctor was _investigating_ at most three committees.
+a hat _astounded_ at least nine banks.
+no hat _astounded_ at least nine banks.
+that student _toured_ at most eight libraries.
+no student _toured_ at most eight libraries.
+every painting did _resemble_ at least five sketches.
+no painting did _resemble_ at least five sketches.
+every woman did _descend_ at most two mountains.
+no woman did _descend_ at most two mountains.
+each _legislature_ was _appreciating_ at least nine women.
+no _legislature_ was _appreciating_ at least nine women.
+this _legislature_ loved at most five actresses.
+no _legislature_ loved at most five actresses.
+every lady is _ascending_ at least eight stairs.
+no lady is _ascending_ at least eight stairs.
+that cat was _scaring_ at most seven legislatures.
+no cat was _scaring_ at most seven legislatures.
+that teacher _researched_ at least four companies.
+no teacher _researched_ at least four companies.
+a hamster _resembled_ at least seven drawings.
+no hamster _resembled_ at least seven drawings.
+that girl is _investigating_ at least eight hospitals.
+no girl is _investigating_ at least eight hospitals.
+a cashier had _concealed_ at least three movies.
+no cashier had _concealed_ at least three movies.
+each driver might _resemble_ at most three drawings.
+no driver might _resemble_ at most three drawings.
+some pedestrian has _respected_ at most ten men.
+no pedestrian has _respected_ at most ten men.
+the child was _researching_ at least ten reports.
+no child was _researching_ at least ten reports.
+every person is _observing_ at most eight senators.
+no person is _observing_ at most eight senators.
+an association _respected_ at most two high schools.
+no association _respected_ at most two high schools.
+every doctor was _hiring_ at most eight women.
+no doctor was _hiring_ at most eight women.
+a woman can _boycott_ at least three grocery stores.
+no woman can _boycott_ at least three grocery stores.
+some organization did _dislike_ at least nine libraries.
+no organization did _dislike_ at least nine libraries.
+each committee has _hired_ at most eight dancers.
+no committee has _hired_ at most eight dancers.
+every actor has _respected_ at least three waiters.
+no actor has _respected_ at least three waiters.
+each boy can _boycott_ at most ten art galleries.
+no boy can _boycott_ at most ten art galleries.
+every senator _observed_ at least seven children.
+no senator _observed_ at least seven children.
+that child _exited_ at least eight glaciers.
+no child _exited_ at least eight glaciers.
+every guy has _boycotted_ at least eight movie theaters.
+no guy has _boycotted_ at least eight movie theaters.
+every actress had _concealed_ at most ten eyes.
+no actress had _concealed_ at most ten eyes.
+that _casserole_ was _scaring_ at most three children.
+no _casserole_ was _scaring_ at most three children.
+this patient has _observed_ at least two waiters.
+no patient has _observed_ at least two waiters.
+this guest _researched_ at most eight photographs.
+no guest _researched_ at most eight photographs.
+a guest _exited_ at most six museums.
+no guest _exited_ at most six museums.
+each _legislature_ talked to at most three teenagers.
+no _legislature_ talked to at most three teenagers.
+that driver had _questioned_ at least seven men.
+no driver had _questioned_ at least seven men.
+some waiter would _conceal_ at least ten stories.
+no waiter would _conceal_ at least ten stories.
+a teacher does _criticize_ at least seven teachers.
+no teacher does _criticize_ at least seven teachers.
+this child had _questioned_ at least four ladies.
+no child had _questioned_ at least four ladies.
+every guy _resembled_ at least eight prints.
+no guy _resembled_ at least eight prints.
+that boy had _toured_ at least seven schools.
+no boy had _toured_ at least seven schools.
+some woman has _boycotted_ at least nine movie theaters.
+no woman has _boycotted_ at least nine movie theaters.
+that student _concealed_ at most three plays.
+no student _concealed_ at most three plays.
+every teenager has _questioned_ at most ten schools.
+no teenager has _questioned_ at most ten schools.
+each pedestrian _toured_ at most ten rivers.
+no pedestrian _toured_ at most ten rivers.
+each child was _firing_ at most five students.
+no child was _firing_ at most five students.
+that _legislature_ is admiring at most six fish.
+no _legislature_ is admiring at most six fish.
+a convertible would _aggravate_ at least three waitresses.
+no convertible would _aggravate_ at least three waitresses.
+the committee did _disgust_ at least six people.
+no committee did _disgust_ at least six people.
+this candle _stunned_ at least four pedestrians.
+no candle _stunned_ at least four pedestrians.
+an association has _concealed_ at most four customers.
+no association has _concealed_ at most four customers.
+the senator was _descending_ at least eight mountains.
+no senator was _descending_ at least eight mountains.
+that hospital has _referenced_ at most two reports.
+no hospital has _referenced_ at most two reports.
+this student was _impressing_ at least seven drivers.
+no student was _impressing_ at least seven drivers.
+some couch can _irritate_ at least three waitresses.
+no couch can _irritate_ at least three waitresses.
+each teenager _concealed_ at most eight ladies.
+no teenager _concealed_ at most eight ladies.
+the guy _questioned_ at least six teenagers.
+no guy _questioned_ at least six teenagers.
+this driver is _hiring_ at most eight patients.
+no driver is _hiring_ at most eight patients.
+some teacher is _investigating_ at most nine legislatures.
+no teacher is _investigating_ at most nine legislatures.
+some girl will _dislike_ at most eight rivers.
+no girl will _dislike_ at most eight rivers.
+the doctor has _boycotted_ at least seven high schools.
+no doctor has _boycotted_ at least seven high schools.
+the girl _questioned_ at most seven guests.
+no girl _questioned_ at most seven guests.
+every association would _criticize_ at most seven high schools.
+no association would _criticize_ at most seven high schools.
+this teacher had _ascended_ at most eight slopes.
+no teacher had _ascended_ at most eight slopes.
+that dancer is _praising_ at least eight children.
+no dancer is _praising_ at least eight children.
+each actor has _biked_ to at least eight malls.
+no actor has _biked_ to at least eight malls.
+this guest had _observed_ at least seven girls.
+no guest had _observed_ at least seven girls.
+some senator did _conceal_ at most ten actresses.
+no senator did _conceal_ at most ten actresses.
+the guy is _astounding_ at least three hospitals.
+no guy is _astounding_ at least three hospitals.
+a _documentary_ would _disgust_ at most ten students.
+no _documentary_ would _disgust_ at most ten students.
+every _legislature_ was buying at least seven peppers.
+no _legislature_ was buying at least seven peppers.
+every organization _criticized_ at least four lakes.
+no organization _criticized_ at least four lakes.
+some _documentary_ disturbs at most seven actresses.
+no _documentary_ disturbs at most seven actresses.
+this student has _concealed_ at least six socks.
+no student has _concealed_ at least six socks.
+the customer would _astound_ at least three adults.
+no customer would _astound_ at least three adults.
+that _muffin_ had disgusted at least four adults.
+no _muffin_ had disgusted at least four adults.
+some doctor is _exiting_ at most seven cafes.
+no doctor is _exiting_ at most seven cafes.
+that lady _toured_ at most five banks.
+no lady _toured_ at most five banks.
+every pedestrian is _observing_ at most five guys.
+no pedestrian is _observing_ at most five guys.
+the hospital does _boast_ about at most seven boys.
+no hospital does _boast_ about at most seven boys.
+each boy _cared_ for at least seven waiters.
+no boy _cared_ for at least seven waiters.
+some patient _boycotted_ at least nine mountains.
+no patient _boycotted_ at least nine mountains.
+a convertible is _impressing_ at least two people.
+no convertible is _impressing_ at least two people.
+every waiter should _boycott_ at least three rivers.
+no waiter should _boycott_ at least three rivers.
+the school _criticized_ at least four banks.
+no school _criticized_ at least four banks.
+each driver has _hired_ at least seven students.
+no driver has _hired_ at least seven students.
+some person has _questioned_ at most three women.
+no person has _questioned_ at most three women.
+this student was _touring_ at least five museums.
+no student was _touring_ at least five museums.
+each senator was _researching_ at most eight plays.
+no senator was _researching_ at most eight plays.
+a company is _concealing_ at most seven doctors.
+no company is _concealing_ at most seven doctors.
+that teacher is _referencing_ at most four children.
+no teacher is _referencing_ at most four children.
+a _legislature_ could praise at most five teachers.
+no _legislature_ could praise at most five teachers.
+this teenager _boycotted_ at least five universities.
+no teenager _boycotted_ at least five universities.
+each _legislature_ did reference at most three senators.
+no _legislature_ did reference at most three senators.
+the _legislature_ references at least eight ladies.
+no _legislature_ references at least eight ladies.
+that couch does _astound_ at most four cashiers.
+no couch does _astound_ at most four cashiers.
+the government has _referenced_ at least five teenagers.
+no government has _referenced_ at least five teenagers.
+every dish has _resembled_ at least six pictures.
+no dish has _resembled_ at least six pictures.
+some guy _observed_ at most two teachers.
+no guy _observed_ at most two teachers.
+each university has _referenced_ at most ten boys.
+no university has _referenced_ at most ten boys.
+each driver is _scaring_ at least four banks.
+no driver is _scaring_ at least four banks.
+each student had _ascended_ at least four steps.
+no student had _ascended_ at least four steps.
+a guest is _appreciating_ at least two doctors.
+no guest is _appreciating_ at least two doctors.
+each teenager _concealed_ at most three glasses.
+no teenager _concealed_ at most three glasses.
+this fish will _resemble_ at least nine pictures.
+no fish will _resemble_ at least nine pictures.
+this library had _concealed_ at least nine guys.
+no library had _concealed_ at least nine guys.
+each actor had _concealed_ at least four books.
+no actor had _concealed_ at least four books.
+every pedestrian _concealed_ at least three snakes.
+no pedestrian _concealed_ at least three snakes.
+every lamp could _resemble_ at least ten photographs.
+no lamp could _resemble_ at least ten photographs.
+this guy _exited_ at least ten lakes.
+no guy _exited_ at least ten lakes.
+the _legislature_ has loved at most six students.
+no _legislature_ has loved at most six students.
+every senator _toured_ at least eight hospitals.
+no senator _toured_ at least eight hospitals.
+every teacher was _biking_ to at most two hospitals.
+no teacher was _biking_ to at most two hospitals.
+some doctor is _firing_ at most nine doctors.
+no doctor is _firing_ at most nine doctors.
+that company might _boast_ about at least six newspaper articles.
+no company might _boast_ about at least six newspaper articles.
+some actress should _aggravate_ at least eight governments.
+no actress should _aggravate_ at least eight governments.
+every senator is _observing_ at most nine children.
+no senator is _observing_ at most nine children.
+every patient had _boycotted_ at most three malls.
+no patient had _boycotted_ at most three malls.
+every man was _investigating_ at least six ladies.
+no man was _investigating_ at least six ladies.
+some waitress _referenced_ at least four newspaper articles.
+no waitress _referenced_ at least four newspaper articles.
+each actress _concealed_ at most seven lamps.
+no actress _concealed_ at most seven lamps.
+each patient _cared_ for at most six cashiers.
+no patient _cared_ for at most six cashiers.
+a waitress does _dislike_ at most two women.
+no waitress does _dislike_ at most two women.
+every car did _disgust_ at most three customers.
+no car did _disgust_ at most three customers.
+every student _questioned_ at least two museums.
+no student _questioned_ at least two museums.
+a _casserole_ has _stunned_ at most ten associations.
+no _casserole_ has _stunned_ at most ten associations.
+that actor _ascended_ at least nine hills.
+no actor _ascended_ at least nine hills.
+a dancer can _conceal_ at most two stories.
+no dancer can _conceal_ at most two stories.
+some government _described_ at least five adults.
+no government _described_ at least five adults.
+every projector has _astounded_ at least three cashiers.
+no projector has _astounded_ at least three cashiers.
+this woman has _questioned_ at most eight associations.
+no woman has _questioned_ at most eight associations.
+that guest _praised_ at least five stories.
+no guest _praised_ at least five stories.
+every report is _irritating_ at least eight legislatures.
+no report is _irritating_ at least eight legislatures.
+that guy _respected_ at most nine college campuses.
+no guy _respected_ at most nine college campuses.
+this _documentary_ disagrees with at least six teachers.
+no _documentary_ disagrees with at least six teachers.
+some glove had _astounded_ at most ten governments.
+no glove had _astounded_ at most ten governments.
+each person does _astound_ at most five men.
+no person does _astound_ at most five men.
+some committee had _praised_ at least ten newspaper articles.
+no committee had _praised_ at least ten newspaper articles.
+this child _boycotted_ at most four college campuses.
+no child _boycotted_ at most four college campuses.
+some boy had _ascended_ at least four steps.
+no boy had _ascended_ at least four steps.
+each cashier was _biking_ to at least two public parks.
+no cashier was _biking_ to at least two public parks.
+some _legislature_ had at most three hamsters.
+no _legislature_ had at most three hamsters.
+this girl was _approaching_ at most nine teenagers.
+no girl was _approaching_ at most nine teenagers.
+that woman is _observing_ at most five actresses.
+no woman is _observing_ at most five actresses.
+each movie theater did _irritate_ at least five patients.
+no movie theater did _irritate_ at least five patients.
+each rug could _resemble_ at most nine prints.
+no rug could _resemble_ at most nine prints.
+every child _described_ at most four essays.
+no child _described_ at most four essays.
+each actor had _researched_ at most six paintings.
+no actor had _researched_ at most six paintings.
+each senator was _descending_ at least three hills.
+no senator was _descending_ at least three hills.
+each man had _hired_ at least nine dancers.
+no man had _hired_ at least nine dancers.
+the bicycle is _impressing_ at most five students.
+no bicycle is _impressing_ at most five students.
+the patient was _investigating_ at least four waiters.
+no patient was _investigating_ at least four waiters.
+the dancer _exited_ at least two rivers.
+no dancer _exited_ at least two rivers.
+some committee has _hired_ at most six children.
+no committee has _hired_ at most six children.

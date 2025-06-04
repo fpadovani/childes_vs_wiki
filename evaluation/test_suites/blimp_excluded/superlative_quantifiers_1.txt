@@ -1,0 +1,302 @@
+no pedestrian is _observing_ more than seven waiters.
+no pedestrian is _observing_ at least seven waiters.
+no customer would _resemble_ more than eight pictures.
+no customer would _resemble_ at least eight pictures.
+no waiter had _referenced_ more than ten teenagers.
+no waiter had _referenced_ at least ten teenagers.
+no woman _exited_ fewer than five public parks.
+no woman _exited_ at most five public parks.
+no college campus _astounded_ more than five libraries.
+no college campus _astounded_ at least five libraries.
+no guest was _touring_ fewer than nine schools.
+no guest was _touring_ at most nine schools.
+no driver was _researching_ more than three associations.
+no driver was _researching_ at least three associations.
+no cashier has _observed_ fewer than two waiters.
+no cashier has _observed_ at most two waiters.
+no teacher has _cared_ for fewer than eight boys.
+no teacher has _cared_ for at most eight boys.
+no actress had _praised_ fewer than seven patients.
+no actress had _praised_ at most seven patients.
+no waiter is _observing_ more than six teenagers.
+no waiter is _observing_ at least six teenagers.
+no patient was _firing_ fewer than seven cashiers.
+no patient was _firing_ at most seven cashiers.
+no customer had _praised_ fewer than nine newspaper articles.
+no customer had _praised_ at most nine newspaper articles.
+no teacher is _biking_ to fewer than seven banks.
+no teacher is _biking_ to at most seven banks.
+no patient _hired_ fewer than nine men.
+no patient _hired_ at most nine men.
+no woman was _criticizing_ more than seven teenagers.
+no woman was _criticizing_ at least seven teenagers.
+no hospital _praised_ fewer than six people.
+no hospital _praised_ at most six people.
+no organization has _criticized_ more than five rivers.
+no organization has _criticized_ at least five rivers.
+no child will _disgust_ fewer than four children.
+no child will _disgust_ at most four children.
+no lady can _boycott_ fewer than six governments.
+no lady can _boycott_ at most six governments.
+no sketch would _irritate_ more than three actresses.
+no sketch would _irritate_ at least three actresses.
+no _legislature_ forgot fewer than four patients.
+no _legislature_ forgot at most four patients.
+no actor _cured_ more than five dancers.
+no actor _cured_ at least five dancers.
+no university is _firing_ more than five senators.
+no university is _firing_ at least five senators.
+no guest is _firing_ more than eight women.
+no guest is _firing_ at least eight women.
+no waitress should _conceal_ fewer than ten essays.
+no waitress should _conceal_ at most ten essays.
+no play is _scaring_ fewer than seven waitresses.
+no play is _scaring_ at most seven waitresses.
+no doctor _described_ more than four books.
+no doctor _described_ at least four books.
+no painting _astounded_ fewer than nine libraries.
+no painting _astounded_ at most nine libraries.
+no student had _biked_ to fewer than five schools.
+no student had _biked_ to at most five schools.
+no person was _researching_ more than nine banks.
+no person was _researching_ at least nine banks.
+no boy might _descend_ fewer than five slopes.
+no boy might _descend_ at most five slopes.
+no committee had _hired_ fewer than four doctors.
+no committee had _hired_ at most four doctors.
+no man was _biking_ to more than four cafes.
+no man was _biking_ to at least four cafes.
+no person had _boycotted_ fewer than ten mountains.
+no person had _boycotted_ at most ten mountains.
+no doctor had _cured_ fewer than eight drivers.
+no doctor had _cured_ at most eight drivers.
+no senator had _concealed_ fewer than two women.
+no senator had _concealed_ at most two women.
+no bird had _resembled_ fewer than ten pictures.
+no bird had _resembled_ at most ten pictures.
+no government had _respected_ fewer than seven hospitals.
+no government had _respected_ at most seven hospitals.
+no hospital was _firing_ more than two doctors.
+no hospital was _firing_ at least two doctors.
+no cashier _ascended_ fewer than four steps.
+no cashier _ascended_ at most four steps.
+no actor has _researched_ more than three rivers.
+no actor has _researched_ at least three rivers.
+no waiter has _researched_ fewer than nine movies.
+no waiter has _researched_ at most nine movies.
+no student was _concealing_ more than three people.
+no student was _concealing_ at least three people.
+no university had _hired_ more than four teachers.
+no university had _hired_ at least four teachers.
+no teenager was _biking_ to more than seven malls.
+no teenager was _biking_ to at least seven malls.
+no government did _conceal_ more than two books.
+no government did _conceal_ at least two books.
+no student is _firing_ fewer than three drivers.
+no student is _firing_ at most three drivers.
+no senator _observed_ fewer than ten guests.
+no senator _observed_ at most ten guests.
+no customer was _appreciating_ fewer than six children.
+no customer was _appreciating_ at most six children.
+no cat was _ascending_ more than four ladders.
+no cat was _ascending_ at least four ladders.
+no person has _praised_ more than four dancers.
+no person has _praised_ at least four dancers.
+no picture is _impressing_ more than four banks.
+no picture is _impressing_ at least four banks.
+no woman _exited_ more than seven college campuses.
+no woman _exited_ at least seven college campuses.
+no guy _concealed_ more than two ladies.
+no guy _concealed_ at least two ladies.
+no government had _concealed_ fewer than eight adults.
+no government had _concealed_ at most eight adults.
+no guy was _investigating_ more than eight legislatures.
+no guy was _investigating_ at least eight legislatures.
+no lady has _biked_ to more than ten cafes.
+no lady has _biked_ to at least ten cafes.
+no university might _boast_ about fewer than five actors.
+no university might _boast_ about at most five actors.
+no person could _boycott_ fewer than four rivers.
+no person could _boycott_ at most four rivers.
+no man _toured_ more than eight schools.
+no man _toured_ at least eight schools.
+no guy was _concealing_ fewer than five pedestrians.
+no guy was _concealing_ at most five pedestrians.
+no horse does _ascend_ more than four hills.
+no horse does _ascend_ at least four hills.
+no driver _questioned_ more than ten waitresses.
+no driver _questioned_ at least ten waitresses.
+no patient was _exiting_ more than six public parks.
+no patient was _exiting_ at least six public parks.
+no _legislature_ does respect fewer than two hills.
+no _legislature_ does respect at most two hills.
+no pedestrian is _biking_ to more than five schools.
+no pedestrian is _biking_ to at least five schools.
+no senator _researched_ more than nine mountains.
+no senator _researched_ at least nine mountains.
+no eggplant _stunned_ fewer than two ladies.
+no eggplant _stunned_ at most two ladies.
+no horse is _ascending_ more than two slopes.
+no horse is _ascending_ at least two slopes.
+no company might _dislike_ more than ten books.
+no company might _dislike_ at least ten books.
+no museum had _praised_ more than six men.
+no museum had _praised_ at least six men.
+no _legislature_ had loved fewer than six stories.
+no _legislature_ had loved at most six stories.
+no boy is _curing_ more than four adults.
+no boy is _curing_ at least four adults.
+no plate was _scaring_ more than six girls.
+no plate was _scaring_ at least six girls.
+no student was _ascending_ fewer than five hills.
+no student was _ascending_ at most five hills.
+no girl might _criticize_ more than four closets.
+no girl might _criticize_ at least four closets.
+no waiter has _concealed_ fewer than two mushrooms.
+no waiter has _concealed_ at most two mushrooms.
+no actress is _irritating_ fewer than four committees.
+no actress is _irritating_ at most four committees.
+no eye might _disgust_ fewer than seven waitresses.
+no eye might _disgust_ at most seven waitresses.
+no dancer has _concealed_ more than seven guests.
+no dancer has _concealed_ at least seven guests.
+no screen could _stun_ more than eight customers.
+no screen could _stun_ at least eight customers.
+no guy was _criticizing_ more than five hills.
+no guy was _criticizing_ at least five hills.
+no government _concealed_ more than eight waitresses.
+no government _concealed_ at least eight waitresses.
+no actor had _hired_ fewer than eight women.
+no actor had _hired_ at most eight women.
+no senator might _resemble_ more than three drawings.
+no senator might _resemble_ at least three drawings.
+no waitress will _conceal_ more than six doctors.
+no waitress will _conceal_ at least six doctors.
+no _casserole_ looks like fewer than six pictures.
+no _casserole_ looks like at most six pictures.
+no patient is _exiting_ more than seven college campuses.
+no patient is _exiting_ at least seven college campuses.
+no waitress has _described_ more than three banks.
+no waitress has _described_ at least three banks.
+no man is _observing_ fewer than six students.
+no man is _observing_ at most six students.
+no lady had _biked_ to more than nine lakes.
+no lady had _biked_ to at least nine lakes.
+no senator _concealed_ more than five children.
+no senator _concealed_ at least five children.
+no _unicycle_ was _scaring_ fewer than two dancers.
+no _unicycle_ was _scaring_ at most two dancers.
+no company _respected_ more than two mountains.
+no company _respected_ at least two mountains.
+no committee _referenced_ fewer than two teachers.
+no committee _referenced_ at most two teachers.
+no organization can _stun_ fewer than four girls.
+no organization can _stun_ at most four girls.
+no _legislature_ listened to fewer than five doctors.
+no _legislature_ listened to at most five doctors.
+no bank _referenced_ fewer than nine movies.
+no bank _referenced_ at most nine movies.
+no committee _praised_ more than six cashiers.
+no committee _praised_ at least six cashiers.
+no dancer has _biked_ to more than five high schools.
+no dancer has _biked_ to at least five high schools.
+no _legislature_ is helping fewer than eight waiters.
+no _legislature_ is helping at most eight waiters.
+no school should _criticize_ more than ten hospitals.
+no school should _criticize_ at least ten hospitals.
+no skateboard _resembled_ more than five drawings.
+no skateboard _resembled_ at least five drawings.
+no person had _observed_ fewer than six students.
+no person had _observed_ at most six students.
+no actor is _boycotting_ fewer than four hills.
+no actor is _boycotting_ at most four hills.
+no mushroom _astounded_ more than ten committees.
+no mushroom _astounded_ at least ten committees.
+no _popsicle_ was looking like fewer than nine paintings.
+no _popsicle_ was looking like at most nine paintings.
+no girl _cured_ fewer than five snakes.
+no girl _cured_ at most five snakes.
+no school should _criticize_ more than six movies.
+no school should _criticize_ at least six movies.
+no child is _boycotting_ more than four college campuses.
+no child is _boycotting_ at least four college campuses.
+no _legislature_ helped fewer than five guests.
+no _legislature_ helped at most five guests.
+no pedestrian _cured_ fewer than eight adults.
+no pedestrian _cured_ at most eight adults.
+no guy _observed_ more than three people.
+no guy _observed_ at least three people.
+no waiter had _researched_ fewer than five photographs.
+no waiter had _researched_ at most five photographs.
+no man was _concealing_ fewer than seven stairs.
+no man was _concealing_ at most seven stairs.
+no customer has _biked_ to fewer than four restaurants.
+no customer has _biked_ to at most four restaurants.
+no pedestrian _observed_ fewer than three doctors.
+no pedestrian _observed_ at most three doctors.
+no cashier is _researching_ fewer than two high schools.
+no cashier is _researching_ at most two high schools.
+no customer _hired_ more than five adults.
+no customer _hired_ at least five adults.
+no driver _cured_ fewer than two guys.
+no driver _cured_ at most two guys.
+no waitress does _hire_ more than two actors.
+no waitress does _hire_ at least two actors.
+no _popsicle_ _astounded_ fewer than five men.
+no _popsicle_ _astounded_ at most five men.
+no actress has _questioned_ fewer than nine organizations.
+no actress has _questioned_ at most nine organizations.
+no patient is _exiting_ more than four art galleries.
+no patient is _exiting_ at least four art galleries.
+no driver _concealed_ fewer than five teachers.
+no driver _concealed_ at most five teachers.
+no actor _exited_ more than nine art galleries.
+no actor _exited_ at least nine art galleries.
+no guest was _ascending_ more than seven hills.
+no guest was _ascending_ at least seven hills.
+no actress does _boycott_ more than five glaciers.
+no actress does _boycott_ at least five glaciers.
+no teacher does _dislike_ fewer than six boys.
+no teacher does _dislike_ at most six boys.
+no pedestrian was _biking_ to more than nine high schools.
+no pedestrian was _biking_ to at least nine high schools.
+no customer had _concealed_ fewer than four grocery stores.
+no customer had _concealed_ at most four grocery stores.
+no senator can _conceal_ more than eight actresses.
+no senator can _conceal_ at least eight actresses.
+no _legislature_ likes fewer than six pants.
+no _legislature_ likes at most six pants.
+no lady can _conceal_ more than two reports.
+no lady can _conceal_ at least two reports.
+no fish has _ascended_ more than nine slopes.
+no fish has _ascended_ at least nine slopes.
+no lady _toured_ more than five grocery stores.
+no lady _toured_ at least five grocery stores.
+no actress has _ascended_ fewer than six slopes.
+no actress has _ascended_ at most six slopes.
+no school was _firing_ more than four people.
+no school was _firing_ at least four people.
+no guy _boycotted_ fewer than ten public parks.
+no guy _boycotted_ at most ten public parks.
+no waiter had _ascended_ fewer than eight hills.
+no waiter had _ascended_ at most eight hills.
+no man had _toured_ more than five libraries.
+no man had _toured_ at least five libraries.
+no adult _hired_ more than two dancers.
+no adult _hired_ at least two dancers.
+no person was _praising_ more than eight reports.
+no person was _praising_ at least eight reports.
+no teacher could _boycott_ more than ten mountains.
+no teacher could _boycott_ at least ten mountains.
+no story is _irritating_ more than ten organizations.
+no story is _irritating_ at least ten organizations.
+no _legislature_ helped fewer than eight dancers.
+no _legislature_ helped at most eight dancers.
+no driver _exited_ more than six hospitals.
+no driver _exited_ at least six hospitals.
+no waitress has _described_ fewer than four public parks.
+no waitress has _described_ at most four public parks.
+no customer has _exited_ more than five grocery stores.
+no customer has _exited_ at least five grocery stores.
+no dancer was _biking_ to fewer than two schools.
+no dancer was _biking_ to at most two schools.
