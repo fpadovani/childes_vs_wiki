@@ -392,6 +392,6 @@ def process_corpus(lang, corpus_type):
             pickle.dump(split, f)
 
 # Process all languages for Wikipedia and CHILDES
-for lang in ['de']:
+for lang in ['en', 'fr', 'de']:
     for corpus_type in ['childes','wiki']:
         process_corpus(lang, corpus_type)
