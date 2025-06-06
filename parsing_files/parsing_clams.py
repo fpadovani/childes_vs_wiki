@@ -17,7 +17,7 @@ from spacy_conll.parser import ConllParser
 from spacy.displacy import render
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utils.variables import CLAMS_DIR, PARSED_DATASETS
+from utils.variables import CLAMS_DIR, PARSED_DATASETS, FITCLAMS_DIR
 
 
 CLAMS_DIR = '/Users/frapadovani/Desktop/CLAMS_analysis/CLAMS/'
@@ -28,7 +28,7 @@ LANG_CONFIGS = {
         "spacy_model": "en_core_web_trf",
         "supar_model": "biaffine-dep-en",
         "clams_folder": "en_evalset_ok/",
-        'clams_new_folder': 'en_new_clams/',
+        'fit_clams_folder': 'en_/',
         "pickle_folder": "clams_eng_deps",
         "conllu_folder": "clams_conllu_files_eng"
     },
@@ -36,15 +36,15 @@ LANG_CONFIGS = {
         "spacy_model": "fr_dep_news_trf",
         "supar_model": None,  # Uses Spacy only
         "clams_folder": "fr_evalset_ok/",
-        'clams_new_folder': 'fr_new_clams/',
-        "pickle_folder": "clams_fr_deps",
-        "conllu_folder": "clams_conllu_files_fr"
+        'fit_clams_folder': 'fr_/',
+        "pickle_folder": "clams_fr_deps_try",
+        "conllu_folder": "clams_conllu_files_fr_try"
     },
     "de": {
         "spacy_model": None,  # Uses Diaparser only
         "supar_model": "de_hdt.dbmdz-bert-base",
         "clams_folder": "de_evalset_ok/",
-        'clams_new_folder': 'de_new_clams/',
+        'fit_clams_folder': 'de_/',
         "pickle_folder": "clams_de_deps",
         "conllu_folder": "clams_conllu_files_de"
     }
@@ -159,14 +159,19 @@ def parse_corpus(nlp, corpus: List[str], conllu_file: str, batch_size=64, empty_
                 disable=["tok2vec", "ner", "attribute_ruler", "lemmatizer", "textcat"],
                 batch_size=batch_size,
             ))
-    
+        
             doc_idx = 0
             for item in batch:
                 if item is None:
                     f.write('None\n\n')
                 else:
                     doc = docs[doc_idx]
-                    f.write(doc._.conll_str + '\n')    
+                    conll_lines = []
+                    for i, token in enumerate(doc):
+                        head = 0 if token.head == token else token.head.i + 1
+                        conll_lines.append(f"{i+1}\t{token.text}\t_\t{token.pos_}\t_\t{token.morph}\t{head}\t{token.dep_}\t_\t_")
+
+                    f.write('\n'.join(conll_lines) + '\n\n')
                     doc_idx += 1
 
 
@@ -267,7 +272,7 @@ def process_language(lang: str):
 
     corpus_names = os.listdir(os.path.join(CLAMS_DIR, config["clams_folder"]))
     corpus_names_ = [corpus.split('.txt')[0] for corpus in corpus_names]
-    conllu_files = [f'{PARSED_DATASET}clams/conllu/{config["conllu_folder"]}/{corpus}_{lang}_deps.conllu' for corpus in corpus_names_]
+    conllu_files = [f'{PARSED_DATASETS}clams/conllu/{config["conllu_folder"]}/{corpus}_{lang}_deps.conllu' for corpus in corpus_names_]
 
     for corpus_file, conllu_file in zip(corpus_names, conllu_files):
         with open(os.path.join(CLAMS_DIR, config["clams_folder"], corpus_file), encoding="utf-8") as f:
@@ -289,7 +294,7 @@ def process_language(lang: str):
         for i in trange(1):
             split = new_docs
             print(new_docs)
-            with open(f'{PARSED_DATASET}clams/pickle/{config["pickle_folder"]}/clams_{lang}_{deps_file}_deps_{i}.pickle', 'wb') as f:
+            with open(f'{PARSED_DATASETS}clams/pickle/{config["pickle_folder"]}/clams_{lang}_{deps_file}_deps_{i}.pickle', 'wb') as f:
                 pickle.dump(split, f)
 
 def parse_extra_files_single(minimal_pair_csv, lang, clams_type):
@@ -308,7 +313,7 @@ def parse_extra_files_single(minimal_pair_csv, lang, clams_type):
     minimal_pairs = pd.read_csv(minimal_pair_csv)
     corpus = minimal_pairs['sentence'].tolist()
     corpus_name = os.path.basename(minimal_pair_csv).split('.csv')[0]
-    conllu_file = f'{PARSED_DATASET}/{clams_type}/conllu/{config["conllu_folder"]}/{corpus_name}_{lang}_deps.conllu'
+    conllu_file = f'{PARSED_DATASETS}/{clams_type}/conllu/{config["conllu_folder"]}/{corpus_name}_{lang}_deps.conllu'
     parse_corpus_supar(nlp, parser, corpus, conllu_file)
 
     with open(conllu_file, encoding="utf-8") as f:
@@ -317,7 +322,7 @@ def parse_extra_files_single(minimal_pair_csv, lang, clams_type):
     new_docs = [parse(preprocess_raw_dep(dep))[0] for dep in raw_deps if dep != 'None']
     for i in trange(1):
         split = new_docs
-        with open(f'{PARSED_DATASET}{clams_type}/pickle/{config["pickle_folder"]}/clams_{lang}_{corpus_name}_deps_{i}.pickle', 'wb') as f:
+        with open(f'{PARSED_DATASETS}{clams_type}/pickle/{config["pickle_folder"]}/clams_{lang}_{corpus_name}_deps_{i}.pickle', 'wb') as f:
             pickle.dump(split, f)
 
 
@@ -339,6 +344,7 @@ def parse_extra_files(clams_type, lang):
     
     elif lang == "fr":
         parser = None
+        
 
     for sub in ['childes', 'wiki']: 
         minimal_pairs_path = os.path.join(CLAMS_DIR, config[f'{clams_type}_folder'], sub)
@@ -346,7 +352,7 @@ def parse_extra_files(clams_type, lang):
             minimal_pair_df = pd.read_csv(os.path.join(minimal_pairs_path, minimal_pair_file),header=None)
             corpus = minimal_pair_df.iloc[:, 0].tolist()
             corpus_name = os.path.basename(minimal_pair_file).split('.csv')[0]
-            conllu_file = f'{PARSED_DATASET}{clams_type}/{sub}/conllu/{config["conllu_folder"]}/{corpus_name}_{lang}_deps.conllu'
+            conllu_file = f'{PARSED_DATASETS}{clams_type}/{sub}/conllu/{config["conllu_folder"]}/{corpus_name}_{lang}_deps.conllu'
             if not os.path.exists(os.path.dirname(conllu_file)):
                 os.makedirs(os.path.dirname(conllu_file), exist_ok=True)
 
@@ -364,7 +370,7 @@ def parse_extra_files(clams_type, lang):
             new_docs = [parse(preprocess_raw_dep(dep))[0] for dep in raw_deps if dep != 'None']
             for i in trange(1):
                 split = new_docs
-                pickle_file = f'{PARSED_DATASET}{clams_type}/{sub}/pickle/{config["pickle_folder"]}/clams_{lang}_{corpus_name}_deps_{i}.pickle'
+                pickle_file = f'{PARSED_DATASETS}{clams_type}/{sub}/pickle/{config["pickle_folder"]}/clams_{lang}_{corpus_name}_deps_{i}.pickle'
                 if not os.path.exists(os.path.dirname(pickle_file)):
                     os.makedirs(os.path.dirname(pickle_file), exist_ok=True)
                 with open(pickle_file, 'wb') as f:
@@ -373,10 +379,11 @@ def parse_extra_files(clams_type, lang):
 
 
 # Process all three languages
-for lang in ['fr', 'eng','de']:
+for lang in ['fr']:
     #let the user select between clams and clams_new
-    clams_type = input("Which dataset do you want to parse? (clams/clams_new): ")
+    clams_type = input("Which dataset do you want to parse? (clams/fit_clams): ")
     if clams_type == 'clams':
         process_language(lang)
     else:
+        CLAMS_DIR = FITCLAMS_DIR
         parse_extra_files(clams_type,lang)
