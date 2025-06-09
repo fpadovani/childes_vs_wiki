@@ -117,7 +117,7 @@ This script also saves its outputs in the same folder: **n_grams_frequency**.
 Once you have these files ready, you can proceed with the following steps in order:
 
 1. Run the script ```fitclams_generation/generate_bins_CLAMS_all_langs.py```, which first computes the shared vocabulary between CHILDES and Wikipedia for the three target languages (English, French, and German). Then, it groups nouns and verbs into 10 bins based on their observed frequency in the training dataset.
-As a result, you will obtain 10 bins stored under each of the following folder names:
+As a result, you will obtain 10 .csv files stored under each of the following folder names:
 
 - *fitclams_generation/extracted_words/de-en-fr/nouns_per_bin_childes*
 
@@ -126,6 +126,40 @@ As a result, you will obtain 10 bins stored under each of the following folder n
 - *fitclams_generation/extracted_words/de-en-fr/nouns_per_bin_wiki*
 
 - *fitclams_generation/extracted_words/de-en-fr/verbs_per_bin_wiki*
+
+
+2. Once the bins are generated, we manually create a file named *chosen_small.csv* inside each of the previously mentioned folders.
+This file contains the selected lexical items (verbs and nouns) for that specific dataset.
+
+Additionally, for each folder corresponding to a language, we create another file named *objects_both.csv*, which contains the extra nouns to be used in the relative clause paradigms.
+
+3. After selecting the lexical items, you can run the script ```fitclams_generation/generate_fit_clams_items.py``` to generate the actual new minimal pairs.
+These are stored in the following folder:
+
+*evaluation/test_suites/fit_clams*
+
+Inside each language subfolder, you will find the minimal pairs generated based on the frequency distributions from Wikipedia and CHILDES, respectively.
+
+## 4. FIT-CLAMS Evaluation
+
+To evaluate FIT-CLAMS, use the script ```evaluation/scripts/save_validation_probabilities_fitclams.py```. This script saves the model probabilities in the folder **evaluation_probabilities/FIT_CLAMS**. To compute accuracy scores and generate bar plots comparing different models, use ```evaluation/scripts/compute_accuracy_plots.py```.
+
+
+## 5. Regression Analysis
+
+The notebook ```regression_analysis.ipynb``` allows you to curate the dataset on which linear regressions are then performed for the three languages and the two datasets (CHILDES and Wikipedia).
+In the **regression_analysis** folder, you can find the datasets, regression scripts, and the generated plots used for the analysis.
+
+These two files are important to perform dependency parsing on both the training datasets and evaluation benchmarks minimal pairs:
+- ```parsing_files/parsing_clams.py```
+- ```parsing_files/parsing_datasets.py```
+
+The *.conllu* files and the *.pickle* files are going to be saved in these folders:
+1. parsed_datasets/clams
+2. parsed_datasets/fit_clams
+3. parsed_datasets/training_datasets
+
+
 
 
 
