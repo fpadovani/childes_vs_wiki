@@ -22,7 +22,7 @@ In the `datasets` folder, you will find the **train/validation splits** in Huggi
 
 To train the GPT-2 models, use the following command:
 
-```bash
+```
 python3 train/clm_trainer.py \
   --report_to "wandb" \
   --wandb_project "name_of_your_wandb_proj" \
@@ -45,11 +45,12 @@ python3 train/clm_trainer.py \
   --language french \
   --validation_type validation_ctc (for childes) or validation (for wikipedia) \
   --order wikipedia_fr \
-  --input_file corpora/french/wikipedia/wikipedia_final.txt```
+  --input_file corpora/french/wikipedia/wikipedia_final.txt
+```
 
 To train the RoBERTa models, use the following command:
 
-```bash
+```
 python3 train/masked_roberta_new.py \
   --report_to "wandb" \
   --wandb_project "name_of_your_wandb_proj" \
@@ -72,5 +73,6 @@ python3 train/masked_roberta_new.py \
   --language french \
   --validation_type validation_ctc (for childes) or validation (for wikipedia) \
   --order wikipedia_fr \
-  --input_file corpora/french/wikipedia/wikipedia_final.txt```
+  --input_file corpora/french/wikipedia/wikipedia_final.txt
+  ```
 
