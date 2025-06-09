@@ -111,5 +111,23 @@ Before proceeding with the generation of the new minimal pairs, it is necessary 
 
 Once run, the resulting frequency distributions will be saved in the folder **n_grams_frequency**
 Additionally, you can compute dependency-based unigram and bigram frequencies using the script ```n_gram_calculations_dep.py```.
+This script also saves its outputs in the same folder: **n_grams_frequency**.
+
+
+Once you have these files ready, you can proceed with the following steps in order:
+
+1. Run the script ```fitclams_generation/generate_bins_CLAMS_all_langs.py```, which first computes the shared vocabulary between CHILDES and Wikipedia for the three target languages (English, French, and German). Then, it groups nouns and verbs into 10 bins based on their observed frequency in the training dataset.
+As a result, you will obtain 10 bins stored under each of the following folder names:
+
+- *fitclams_generation/extracted_words/de-en-fr/nouns_per_bin_childes*
+
+- *fitclams_generation/extracted_words/de-en-fr/verbs_per_bin_childes*
+
+- *fitclams_generation/extracted_words/de-en-fr/nouns_per_bin_wiki*
+
+- *fitclams_generation/extracted_words/de-en-fr/verbs_per_bin_wiki*
+
+
+
 
 
