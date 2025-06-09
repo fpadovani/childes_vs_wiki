@@ -76,3 +76,21 @@ python3 train/masked_roberta_new.py \
   --input_file corpora/french/wikipedia/wikipedia_final.txt
   ```
 
+## 2. Evaluation of Existing Benchmarks
+In the folder `evaluation/test_suites`, you will find the three minimal pairs benchmarks used to evaluate our models:
+
+- zorro
+- blimp
+- clams/de_evalset_ok
+- clams/en_evalset_ok
+- clams/fr_evalset_ok
+
+Filtered versions are also available (excluding sentences with unseen tokens during training).
+However, the evaluation reported in the paper uses the full versions of these benchmarks.
+
+Run the following script to assign and save probabilities for each sentence in the evaluation benchmarks:
+
+```evaluation/scripts/save_validation_probabilities.py```
+
+Results will be saved in the `evaluation_probabilities/` directory under each benchmark's name.
+
