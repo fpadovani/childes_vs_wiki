@@ -45,7 +45,7 @@ python3 train/clm_trainer.py \
   --language french \
   --validation_type validation_ctc (for childes) or validation (for wikipedia) \
   --order wikipedia_fr \
-  --input_file corpora/french/wikipedia/wikipedia_final.txt
+  --input_file corpora/french/wikipedia/wikipedia_final.txt```
 
 To train the RoBERTa models, use the following command:
 
@@ -72,5 +72,5 @@ python3 train/masked_roberta_new.py \
   --language french \
   --validation_type validation_ctc (for childes) or validation (for wikipedia) \
   --order wikipedia_fr \
-  --input_file corpora/french/wikipedia/wikipedia_final.txt
+  --input_file corpora/french/wikipedia/wikipedia_final.txt```
 
