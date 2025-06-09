@@ -79,11 +79,11 @@ python3 train/masked_roberta_new.py \
 ## 2. Evaluation of Existing Benchmarks
 In the folder `evaluation/test_suites`, you will find the three minimal pairs benchmarks used to evaluate our models:
 
-- zorro
-- blimp
-- clams/de_evalset_ok
-- clams/en_evalset_ok
-- clams/fr_evalset_ok
+- *zorro*
+- *blimp*
+- *clams/de_evalset_ok*
+- *clams/en_evalset_ok*
+- *clams/fr_evalset_ok*
 
 Filtered versions are also available (excluding sentences with unseen tokens during training).
 However, the evaluation reported in the paper uses the full versions of these benchmarks.
@@ -92,18 +92,24 @@ However, the evaluation reported in the paper uses the full versions of these be
 
 ```evaluation/scripts/save_validation_probabilities.py```
 
-Results will be saved in the `evaluation_probabilities/` directory under each benchmark's name.
+Results will be saved in the **evaluation_probabilities/** directory under each benchmark's name.
 
 -- Use this script to compute accuracy and generate bar plots based on the saved probabilities:
 
 ```evaluation/scripts/compute_accuracy_plots.py```
 
--- Run this script to compute per-paradigm scores (for each benchmark) and save results as JSON files in `json_results_clm/`:
+-- Run this script to compute per-paradigm scores (for each benchmark) and save results as JSON files in **json_results_clm/**:
 
 ```scripts/evaluate_curves_seeds.py```
 
 Then, plot learning curves using:
 
 ```scripts/plots_curves_seeds.py```
+
+## 3. FIT-CLAMS generation
+Before proceeding with the generation of the new minimal pairs, it is necessary to compuute the unigram and bigram frequency distributions of the training dataset used in this work using the script ```n_gram_calculations_simple.py```.
+
+Once run, the resulting frequency distributions will be saved in the folder **n_grams_frequency**
+Additionally, you can compute dependency-based unigram and bigram frequencies using the script ```n_gram_calculations_dep.py```.
 
 
