@@ -88,9 +88,22 @@ In the folder `evaluation/test_suites`, you will find the three minimal pairs be
 Filtered versions are also available (excluding sentences with unseen tokens during training).
 However, the evaluation reported in the paper uses the full versions of these benchmarks.
 
-Run the following script to assign and save probabilities for each sentence in the evaluation benchmarks:
+-- Run the following script to assign and save probabilities for each sentence in the evaluation benchmarks:
 
 ```evaluation/scripts/save_validation_probabilities.py```
 
 Results will be saved in the `evaluation_probabilities/` directory under each benchmark's name.
+
+-- Use this script to compute accuracy and generate bar plots based on the saved probabilities:
+
+```evaluation/scripts/compute_accuracy_plots.py```
+
+-- Run this script to compute per-paradigm scores (for each benchmark) and save results as JSON files in `json_results_clm/`:
+
+```scripts/evaluate_curves_seeds.py```
+
+Then, plot learning curves using:
+
+```scripts/plots_curves_seeds.py```
+
 
