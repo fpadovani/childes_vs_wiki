@@ -19,6 +19,8 @@ import json
 from transformers import PreTrainedTokenizerFast
 from tokenizers import ByteLevelBPETokenizer
 from tokenizers.models import WordLevel
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.variables import *
 from datasets import load_dataset
 import nltk
@@ -534,7 +536,7 @@ def load_existing_dataset(dataset_folder, order):
 
 
 
-def create_and_load_new_dataset(input_file, dataset_folder, order, save_fig, fig_folder, language: Optional[str] = None):
+def create_and_load_new_dataset(input_file, dataset_folder, order, language: Optional[str] = None):
     """Create a new dataset split and load it."""
     print("Dataset folder doesn't exist, creating a new one.")
 

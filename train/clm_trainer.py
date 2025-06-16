@@ -78,173 +78,28 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Finetune a transformers model on a causal language modeling task")
-    
+
     parser.add_argument(
-        "--model_name_or_path",
+        "--report_to",
         type=str,
-        default=None,
-        help="Path to pretrained model or model identifier from huggingface.co/models.",
-        required=False,
-    )
-    parser.add_argument(
-        "--config_name",
-        type=str,
-        default=None,
-        help="Pretrained config name or path if not the same as model_name",
+        default="all",
+        help='The integration to report the results and logs to (e.g., "wandb").',
     )
 
     parser.add_argument(
-        "--validation_type",
+        '--wandb_project',
         type=str,
-        default='validation_ctx',
-        help="Choose if to evaluate with the validation set in context (validation_ctx) of the validation set randomized (validation_rnd)",
+        required=True,
+        help='Provide the name for the wandb project'
     )
 
     parser.add_argument(
         "--tokenizer_name",
         type=str,
-        default=None,
-        help="Pretrained tokenizer name or path if not the same as model_name",
+        required=True,
+        help="Pretrained tokenizer name or path."
     )
 
-    parser.add_argument(
-        "--num_shuffling", 
-        type= int, 
-        default=1, 
-        help= "Number of shuffling to apply to the dataset")
-
-    parser.add_argument(
-        "--scramble_unit",
-        type=str,
-        default='transcript',
-        help="Could be either transcript or sentence and will have an impact on the training when we have more than one epoch",
-    )
-    parser.add_argument(
-        "--use_slow_tokenizer",
-        action="store_true",
-        help="If passed, will use a slow tokenizer (not backed by the 🤗 Tokenizers library).",
-    )
-    parser.add_argument(
-        "--per_device_train_batch_size",
-        type=int,
-        default=8,
-        help="Batch size (per device) for the training dataloader.",
-    )
-    parser.add_argument(
-        "--per_device_eval_batch_size",
-        type=int,
-        default=8,
-        help="Batch size (per device) for the evaluation dataloader.",
-    )
-    parser.add_argument(
-        "--learning_rate",
-        type=float,
-        default=5e-5,
-        help="Initial learning rate (after the potential warmup period) to use.",
-    )
-    parser.add_argument(
-        "--weight_decay", 
-        type=float, 
-        default=0.0, 
-        help="Weight decay to use.")
-    
-    parser.add_argument(
-        "--num_train_epochs", 
-        type=int, 
-        default=3, 
-        help="Total number of training epochs to perform.")
-    
-
-    parser.add_argument(
-        "--max_train_steps",
-        type=int,
-        default=None,
-        help="Total number of training steps to perform. If provided, overrides num_train_epochs.",
-    )
-    parser.add_argument(
-        "--gradient_accumulation_steps",
-        type=int,
-        default=1,
-        help="Number of updates steps to accumulate before performing a backward/update pass.",
-    )
-    parser.add_argument(
-        "--lr_scheduler_type",
-        type=SchedulerType,
-        default="linear",
-        help="The scheduler type to use.",
-        choices=["linear", "cosine", "cosine_with_restarts", "polynomial", "constant", "constant_with_warmup"],
-    )
-
-    parser.add_argument(
-        "--num_warmup_steps", 
-        type=int, 
-        default=0, 
-        help="Number of steps for the warmup in the lr scheduler."
-    )
-
-    parser.add_argument(
-        "--output_dir", 
-        type=str, 
-        default=None, 
-        help="Where to store the final model.")
-    
-    parser.add_argument(
-        "--seed", 
-        type=int, 
-        default=None,
-        help="A seed for reproducible training.")
-    
-    parser.add_argument(
-        "--model_type",
-        type=str,
-        default=None,
-        help="Model type to use if training from scratch.",
-        choices=MODEL_TYPES,
-    )
-    
-    parser.add_argument(
-        "--preprocessing_num_workers",
-        type=int,
-        default=None,
-        help="The number of processes to use for the preprocessing.",
-    )
-    parser.add_argument(
-        "--overwrite_cache", action="store_true", help="Overwrite the cached training and evaluation sets"
-    )
-    parser.add_argument(
-        "--no_keep_linebreaks", action="store_true", help="Do not keep line breaks when using TXT files."
-    )
-    parser.add_argument(
-        "--streaming", action="store_true", help="Do you want to stream your data or not?"
-    )
-    parser.add_argument("--push_to_hub", action="store_true", help="Whether or not to push the model to the Hub.")
-    parser.add_argument("--mlm", action="store_true", help="Is a mlm model or not?")
-    parser.add_argument(
-        "--hub_model_id", type=str, help="The name of the repository to keep in sync with the local `output_dir`."
-    )
-    parser.add_argument("--hub_token", type=str, help="The token to use to push to the Model Hub.")
-    parser.add_argument("--context_length", type=int)
-    parser.add_argument(
-        "--trust_remote_code",
-        action="store_true",
-        help=(
-            "Whether to trust the execution of code from datasets/models defined on the Hub."
-            " This option should only be set to `True` for repositories you trust and in which you have read the"
-            " code, as it will execute code present on the Hub on your local machine."
-        ),
-    )
-    parser.add_argument(
-        "--checkpointing_steps",
-        type=str,
-        default=None,
-        help="Whether the various states should be saved at the end of every n steps, or 'epoch' for each epoch.",
-    )
-    parser.add_argument(
-        "--resume_from_checkpoint",
-        type=str,
-        default=None,
-        help="If the training should continue from a checkpoint folder.",
-    )
     parser.add_argument(
         "--with_tracking",
         action="store_true",
@@ -252,70 +107,146 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--fig_folder",
-        type=str
+        "--per_device_train_batch_size",
+        type=int,
+        default=8,
+        help="Batch size (per device) for the training dataloader.",
     )
+
     parser.add_argument(
-        "--report_to",
+        "--per_device_eval_batch_size",
+        type=int,
+        default=8,
+        help="Batch size (per device) for the evaluation dataloader.",
+    )
+
+    parser.add_argument(
+        "--learning_rate",
+        type=float,
+        default=5e-5,
+        help="Initial learning rate to use.",
+    )
+
+    parser.add_argument(
+        "--weight_decay",
+        type=float,
+        default=0.0,
+        help="Weight decay to use.",
+    )
+
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="A seed for reproducible training.",
+    )
+
+    parser.add_argument(
+        "--vocab_size",
+        type=int,
+        required=True,
+        help="Vocabulary size of the tokenizer.",
+    )
+
+    parser.add_argument(
+        "--lr_scheduler_type",
         type=str,
-        default="all",
-        help=(
-            'The integration to report the results and logs to. Supported platforms are `"tensorboard"`,'
-            ' `"wandb"`, `"comet_ml"` and `"clearml"`. Use `"all"` (default) to report to all integrations. '
-            "Only applicable when `--with_tracking` is passed."
-        ),
-    )
-    parser.add_argument(
-        "--low_cpu_mem_usage",
-        action="store_true",
-        help=(
-            "It is an option to create the model as an empty shell, then only materialize its parameters when the pretrained weights are loaded. "
-            "If passed, LLM loading time and RAM consumption will be benefited."
-        ),
+        default="linear",
+        choices=["linear", "cosine", "cosine_with_restarts", "polynomial", "constant", "constant_with_warmup"],
+        help="The scheduler type to use.",
     )
 
     parser.add_argument(
-        '--dataset_folder', 
-        type=str, 
-        default= None, 
-        help='(Optional) Folder in which are stored the dataset splits. If not provided, a new folder, with a new dataset split will be created.')
-    
+        "--num_warmup_steps",
+        type=int,
+        default=0,
+        help="Number of steps for the warmup in the lr scheduler.",
+    )
+
     parser.add_argument(
-        '--order', 
-        type = str, 
-        help = 'Provide an order for the ao-childes dataset among these three: age, reversed, random', 
-        required=True)
-    
+        "--gradient_accumulation_steps",
+        type=int,
+        default=1,
+        help="Number of update steps to accumulate before a backward pass.",
+    )
+
     parser.add_argument(
-        '--input_file', 
-        type=str, 
-        help='Path to the input file', 
-        required=True)
-    
-    parser.add_argument(
-        '--save_fig', 
+        "--push_to_hub",
         action="store_true",
-        default = True, 
-        help = "(Optional) Set to False if you don't want to save figures.")
-    
+        help="Whether or not to push the model to the Hugging Face Hub.",
+    )
+
     parser.add_argument(
-        '--vocab_size', 
-        type=int, 
-        help = "(Optional) Vocabulary size of tokenizer.")
-    
-    parser.add_argument(
-        '--wandb_project', type = str, required = True, help = 'Provide the name for the wandb project')
-    
-    parser.add_argument(
-        '--language', 
+        "--output_dir",
         type=str,
-        help = "The target language of our model trainings."
+        required=True,
+        help="Where to store the final model.",
     )
-    
 
-    args = parser.parse_args()
+    parser.add_argument(
+        "--model_type",
+        type=str,
+        choices=["gpt2"],  # Add more if needed
+        required=True,
+        help="Model type to use if training from scratch.",
+    )
 
-    return args
+    parser.add_argument(
+        "--trust_remote_code",
+        action="store_true",
+        help="Whether to trust code from the Hub.",
+    )
+
+    parser.add_argument(
+        "--dataset_folder",
+        type=str,
+        required=True,
+        help="Folder in which the dataset splits are stored.",
+    )
+
+    parser.add_argument(
+        "--context_length",
+        type=int,
+        required=True,
+        help="Context length for model input.",
+    )
+
+    parser.add_argument(
+        "--language",
+        type=str,
+        required=True,
+        help="The target language of the model.",
+    )
+
+    parser.add_argument(
+        "--validation_type",
+        type=str,
+        choices=["validation", "validation_ctc"],
+        required=True,
+        help="Choose between 'validation' (for Wikipedia) or 'validation_ctc' (for CHILDES).",
+    )
+
+    parser.add_argument(
+        "--order",
+        type=str,
+        required=True,
+        help="Provide an order label for the dataset (e.g., wikipedia_fr).",
+    )
+
+    parser.add_argument(
+        "--input_file",
+        type=str,
+        required=True,
+        help="Path to the input training file.",
+    )
+
+    parser.add_argument(
+        "--hub_model_id", type=str, help="The name of the repository to keep in sync with the local `output_dir`."
+    )
+
+    parser.add_argument("--hub_token", type=str, help="The token to use to push to the Model Hub.")
+
+    return parser.parse_args()
 
 
 def main():
@@ -379,7 +310,7 @@ def main():
         print(f"Dataset folder '{dataset_path}' exists.")
         raw_datasets = load_existing_dataset(os.path.join(args.dataset_folder, args.language), args.order)
     else:
-        raw_datasets = create_and_load_new_dataset(args.input_file, args.dataset_folder, args.order, args.save_fig, args.fig_folder, args.language)
+        raw_datasets = create_and_load_new_dataset(args.input_file, args.dataset_folder, args.order, args.language)
 
     # Determine the path for the shuffled dataset
     shuffle_path = os.path.join(dataset_path, 'epochs', str(args.num_shuffling))
