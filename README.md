@@ -129,9 +129,7 @@ As a result, you will obtain 10 .csv files stored under each of the following fo
 
 
 2. Once the bins are generated, we manually create a file named *chosen_small.csv* inside each of the previously mentioned folders.
-This file contains the selected lexical items (verbs and nouns) for that specific dataset.
-
-Additionally, for each folder corresponding to a language, we create another file named *objects_both.csv*, which contains the extra nouns to be used in the relative clause paradigms.
+This file contains the selected lexical items (verbs and nouns) for that specific dataset. Additionally, for each folder corresponding to a language, we create another file named *objects_both.csv*, which contains the extra nouns to be used in the relative clause paradigms.
 
 3. After selecting the lexical items, you can run the script ```fitclams_generation/generate_fit_clams_items.py``` to generate the actual new minimal pairs.
 These are stored in the following folder:
